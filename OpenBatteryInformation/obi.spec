@@ -10,7 +10,7 @@ a = Analysis(
         ('interfaces', 'interfaces'),
         ('icon.png', '.')
     ],
-    hiddenimports=['modules', 'interfaces', 'interfaces.arduino_obi', 'modules.makita_lxt'],
+    hiddenimports=['modules', 'interfaces', 'interfaces.arduino_obi', 'modules.makita_lxt', 'pkg_resources.extern'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
